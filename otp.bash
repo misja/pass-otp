@@ -17,7 +17,7 @@
 # []
 
 VERSION="1.1.1"
-OATH=$(which oathtool)
+OATH=/usr/libexec/sailfish-oath/bin/oathtool
 
 ## source:  https://gist.github.com/cdown/1163649
 urlencode() {
